@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#e3e6e6;
+}
+
+.navbar{
+    height:60px;
+    background:#131921;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.logo h2{
+    color:white;
+}
+
+.border{
+    border:1px solid transparent;
+    padding:8px;
+}
+
+.border:hover{
+    border:1px solid white;
+}
+
+.small{
+    font-size:12px;
+    color:#ccc;
+}
+
+.search{
+    display:flex;
+    width:50%;
+    height:40px;
+}
+
+.search select{
+    width:60px;
+    border:none;
+    background:#ddd;
+    text-align:center;
+}
+
+.search input{
+    flex:1;
+    border:none;
+    padding-left:10px;
+    font-size:16px;
+}
+
+.search button{
+    width:50px;
+    background:#febd68;
+    border:none;
+    cursor:pointer;
+    font-size:18px;
+}
+
+.panel{
+    background:#232f3e;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding:10px 20px;
+}
+
+.panel-menu{
+    font-weight:bold;
+}
+
+.panel-links{
+    display:flex;
+    gap:20px;
+    margin-left:30px;
+}
+
+.panel-links p{
+    cursor:pointer;
+}
+
+.hero{
+    height:350px;
+    background:url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1600") center/cover;
+    display:flex;
+    align-items:flex-end;
+    justify-content:center;
+}
+
+.hero-message{
+    background:white;
+    padding:12px;
+    width:90%;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.shop-section{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    background:white;
+    padding:20px;
+}
+
+.box img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    margin:15px 0;
+}
+
+.box a{
+    color:#007185;
+    text-decoration:none;
+}
+
+.back{
+    background:#37475a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    cursor:pointer;
+}
+
+.footer{
+    background:#232f3e;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.footer div{
+    margin:20px;
+}
+
+.footer p{
+    margin:10px 0;
+    color:#ddd;
+}
+
+.copyright{
+    background:#131921;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.search{
+    width:40%;
+}
+
+.panel-links{
+    display:none;
+}
+
+.navbar{
+    flex-wrap:wrap;
+    height:auto;
+    padding:10px;
+}
+
+.hero{
+    height:220px;
+}
+
+}
