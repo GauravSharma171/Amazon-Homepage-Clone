@@ -3,187 +3,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon Clone</title>
-
+    <title>Amazon</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-
-<!-- Navbar -->
-
-<header>
-
-<div class="navbar">
-
-<div class="logo border">
-    <h2>amazon</h2>
+   <header>
+    <div class="navbar">
+<div class="nav-logo border">
+    <div class="logo"></div>
 </div>
-
-<div class="address border">
-    <p class="small">Deliver to</p>
-    <p><i class="fa-solid fa-location-dot"></i> India</p>
+<div class="nav-address border">
+    <p class="add-first">Deliver to</p>
+    <div class="add-icon">
+<i class="fa-sharp fa-solid fa-location-dot"></i>
+        <p class="add-sec">India</p>
+    </div>
 </div>
-
-<div class="search">
-
-<select>
-<option>All</option>
-</select>
-
-<input type="text" placeholder="Search Amazon">
-
-<button>
-<i class="fa-solid fa-magnifying-glass"></i>
-</button>
-
+<div class="nav-search">
+    <select class="select-search">
+        <option>All</option>
+    </select>
+    <input placeholder="search Amazon" class="search-input">
+    <div class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
 </div>
-
-<div class="nav-sign border">
-<p>Hello, Sign in</p>
-<h4>Account & Lists</h4>
-</div>
-
-<div class="nav-return border">
-<p>Returns</p>
-<h4>& Orders</h4>
-</div>
-
-<div class="cart border">
+ <div class="nav-signin border">
+        <p><span>Hello,sign in</span></p>
+        <p class="nav-sec">Account & lists</p>
+    </div>
+     <div class="nav-return border">
+        <p><span>Returns</span></p>
+        <p>& Orders</p>
+    </div>
+    <div class="nav-cart border">
 <i class="fa-solid fa-cart-shopping"></i>
-Cart
+        Cart
+    </div>
+    </div>
+   
+    <div class="panel">
+        <div class="panel-all">
+           <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-opt">
+            <p>Today's Deals</p>
+            <p>Customer Service</p>
+            <p>Registraty</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+           
+        </div>
+         <div class="panel-deal">
+                Shop deals in electronics
+            </div>
+    </div>
+   </header>
+   <div class="hero-sect">
+<div class="hero-msg">
+    <p>You are on amazon now.You can also shop on Amazon india for millions of products with fast local delivery.<a href="gj">Click here to go amazon.in</a></p>
 </div>
+   </div>
 
-</div>
+   <div class="shop-sect">
+    <div class="box1 box">
+        <div class="box-content">
+            <h2>Make up beauty</h2>
+        <div class="box-img" style="background-image: url('makeup.jpg');"></div>
+        <p>see more</p>
+        </div>
+        </div>
+     <div class="box2 box">
+        <div class="box-content">
+            <h2>Jewellery</h2>
+        <div class="box-img" style="background-image: url('jewej.jpg');"></div>
+        <p>see more</p>
+        </div>
+     </div>
+      <div class="box3 box">
+        <div class="box-content">
+            <h2>Electronic devices</h2>
+        <div class="box-img" style="background-image: url('device.jpg');"></div>
+        <p>see more</p>
+        </div>
+      </div>
+       <div class="box4 box">
+        <div class="box-content">
+            <h2>Skin Care</h2>
+        <div class="box-img" style="background-image: url('Skin.jpg');"></div>
+        <p>see more</p>
+        </div>
+       </div>
+   </div>
+      <div class="shop-sect">
+    <div class="box1 box">
+        <div class="box-content">
+            <h2>Container</h2>
+        <div class="box-img" style="background-image: url('bottle.jpg');"></div>
+        <p>see more</p>
+        </div>
+        </div>
+     <div class="box2 box">
+        <div class="box-content">
+            <h2>Fragrance</h2>
+        <div class="box-img" style="background-image: url('Perf.jpg');"></div>
+        <p>see more</p>
+        </div>
+     </div>
+      <div class="box3 box">
+        <div class="box-content">
+            <h2>Fashion</h2>
+        <div class="box-img" style="background-image: url('fashion.jpg');"></div>
+        <p>see more</p>
+        </div>
+      </div>
+       <div class="box4 box">
+        <div class="box-content">
+            <h2>Footwear</h2>
+        <div class="box-img" style="background-image: url('foot.jpg');"></div>
+        <p>see more</p>
+        </div>
+       </div>
+   </div>
 
-<!-- Panel -->
+   <footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+    <div class="foot-panel2">
+       <ul>
+       <p>Get to Know us</p>
+       <a href="a">Careers</a>
+       <a href="b">Blog</a>
+       <a href="c">About Amazon</a>
+       <a>Investor Relations</a>
+       <a>Amazon Devices</a>
+       <a>Amazon Science</a>
 
-<div class="panel">
+       </ul> 
+        <ul>
+       <p>Connect with Us</p>
+       <a href="hh">Facebook</a>
+       <a href="kn">Twitter</a>
+       <a>instagram</a>
+       
+       </ul> 
+        <ul>
+       <p>Make Money with Us</p>
+       <a>Sell on Amazon</a>
+       <a>Sell Under Amazon Accelerator</a>
+       <a>Protect and Build Your Brand</a>
+       <a>Supply to Amazon</a>
+       <a>Advertise Your Product</a>
+       <a>Amazon Pay on Merchants</a>
+       <a>Become an Affiliate</a>
+       <a>Fulfilment by Amazon</a>
 
-<div class="panel-menu">
-<i class="fa-solid fa-bars"></i>
-All
-</div>
+       </ul> 
+        <ul>
+       <p>Let Us Help You</p>
+       <a>Your Account</a>
+       <a>Returns Centre</a>
+       <a>Recalls and Product Safety Alerts</a>
+       <a>100% Purchase Protection</a>
+       <a>Amazon App Download</a>
+       <a>Help</a>
 
-<div class="panel-links">
-<p>Today's Deals</p>
-<p>Customer Service</p>
-<p>Registry</p>
-<p>Gift Cards</p>
-<p>Sell</p>
-</div>
+       </ul> 
+    </div>
+    <div class="foot-panel3">
+        <div class="logo">
 
-</div>
-
-</header>
-
-<!-- Hero -->
-
-<section class="hero">
-<div class="hero-message">
-You are on amazon.com. You can also shop on Amazon India.
-</div>
-</section>
-
-<!-- Shopping -->
-
-<section class="shop-section">
-
-<div class="box">
-<h2>Clothes</h2>
-<img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Electronics</h2>
-<img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Furniture</h2>
-<img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Beauty Picks</h2>
-<img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Gaming</h2>
-<img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Health</h2>
-<img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Pets</h2>
-<img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=500">
-<a href="#">See More</a>
-</div>
-
-<div class="box">
-<h2>Toys</h2>
-<img src="https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=500">
-<a href="#">See More</a>
-</div>
-
-</section>
-
-<footer>
-
-<div class="back">
-Back to Top
-</div>
-
-<div class="footer">
-
-<div>
-<h3>Get to Know Us</h3>
-<p>Careers</p>
-<p>Blog</p>
-<p>About Amazon</p>
-</div>
-
-<div>
-<h3>Make Money</h3>
-<p>Sell products</p>
-<p>Affiliate</p>
-<p>Advertise</p>
-</div>
-
-<div>
-<h3>Amazon Payment</h3>
-<p>Gift Cards</p>
-<p>Reload Balance</p>
-</div>
-
-<div>
-<h3>Help</h3>
-<p>Your Account</p>
-<p>Returns</p>
-<p>Support</p>
-</div>
-
-</div>
-
-<div class="copyright">
-© 2026 Amazon Clone
-</div>
-
-</footer>
-
+        </div>
+    </div>
+    <div class="foot-panel4">
+        <div class="pages">
+            <a>Conditions of use</a>
+            <a>Privacy notes</a>
+            <a>Your ads privacy choice</a>
+        </div>
+        <div class="copy-right">
+            1996-2023,Amazon.com,Inc. or its afflitiates
+        </div>
+    </div>
+   </footer>
 </body>
-</html>
+</html>  
